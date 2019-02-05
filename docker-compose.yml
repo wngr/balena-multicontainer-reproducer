@@ -1,0 +1,7 @@
+version: '2'
+volumes:
+  resin-data:
+services:
+  cec:
+    privileged: true
+    build: ./cec
